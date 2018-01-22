@@ -9,7 +9,7 @@
 
 ### Setup commands for project:
 1. `yarn install` || `npm install`
-1. `yarn start` || `npm start`
+1. `node deploy.js`
 --------------------------
 ## How do I run the tests?
 _Glad you asked :)_
