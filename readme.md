@@ -5,11 +5,11 @@
   - node
   - yarn || npm
 
-### Create .env file at project root with a `MNEMONIC` variable
+### Create .env file at project root with a `MNEMONIC` and `INFURA_ADDRESS` variable
 
 ### Setup commands for project:
 1. `yarn install` || `npm install`
-1. `node deploy.js`
+1. `yarn start` || `npm start`
 --------------------------
 ## How do I run the tests?
 _Glad you asked :)_

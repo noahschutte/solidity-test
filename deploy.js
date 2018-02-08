@@ -3,9 +3,10 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const {interface, bytecode} = require('./compile');
 const MNEMONIC = process.env.MNEMONIC;
+const INFURA_ADDRESS = process.env.INFURA_ADDRESS;
 const provider = new HDWalletProvider(
   MNEMONIC,
-  'https://rinkeby.infura.io/TZF48A41Mc5KhJz89N3H'
+  INFURA_ADDRESS
 );
 const web3 = new Web3(provider);
 
